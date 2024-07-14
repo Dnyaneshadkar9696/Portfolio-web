@@ -1,0 +1,129 @@
+div{
+    list-style: none;
+    background-color: #090809;
+    height: 50px;
+    width: 1300px;
+    color: #EEE5E9;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+#bold{
+    font-size: 30px;
+    color: #FF7F50;
+
+}
+.h1{
+    display: inline;
+}
+.inlo a{
+    list-style: none;
+    color: #EEE5E9;
+    text-decoration: none;
+    font-size: 25px;
+}
+.inlo a:hover{
+    color: orange;
+}
+.back{
+    position: relative;
+}
+
+.back{
+    height: 600px;
+    width: 1300px;
+    left: 0px;
+    
+}
+.inimg{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    right: 0px;
+    justify-self: center;
+    margin-top: 80px;
+    margin-right: 100px;
+    position: relative;
+}
+.inlogo{
+    top: 50px;
+    left: 800px;
+    height: 250px;
+    width: 350px;
+    margin-top: 50px;
+    margin-right: 400px;
+    position: absolute;
+    background-color: transparent;
+    
+}
+br{
+    background-color: gray;
+    
+}
+
+.backtext{
+    position: absolute;
+    top: 0%;
+    color:#EEE5E9;
+    padding: -250px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    justify-self: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    left: 0px;
+    text-align: left;
+    animation: hel 5s ease-in-out 0s infinite normal;
+
+
+}
+@keyframes hel{
+    from{
+        color: white;
+    }
+    to{
+        color: rgb(40, 237, 237);
+    }
+}
+.backtext{
+    font-size: xx-large;
+    margin-left: 200px;
+    color: #EEE5E9;
+}
+
+
+
+
+.backtext button{
+    background-color: rgb(55, 54, 52);
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+    border-radius: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
